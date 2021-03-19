@@ -1,5 +1,5 @@
 :root{
-    --viridian: #6b6e7a
+    --background: #6b6e7a
 }
 @font-face {
   font-family: 'icomoon';
@@ -50,13 +50,13 @@ body {
 }
 
 a {
-  color: 	var(--viridian);
+  color: 	var(--background);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
 }
 a:hover, a:active, a:focus {
-  color: var(--viridian);
+  color: var(--background);
   outline: none;
   text-decoration: none;
 }
@@ -74,17 +74,17 @@ h1, h2, h3, h4, h5, h6, figure {
 
 ::-webkit-selection {
   color: #fff;
-  background:var(--viridian);
+  background:var(--background);
 }
 
 ::-moz-selection {
   color: #fff;
-  background:	var(--viridian);
+  background:	var(--background);
 }
 
 ::selection {
   color: #fff;
-  background:	var(--viridian);
+  background:	var(--background);
 }
 
 #fh5co-header,
@@ -103,7 +103,7 @@ h1, h2, h3, h4, h5, h6, figure {
   bottom: 0;
   left: 0;
   right: 0;
-  background: var(--viridian);
+  background: var(--background);
   
 }
 #fh5co-header .display-t,
@@ -227,7 +227,7 @@ h1, h2, h3, h4, h5, h6, figure {
 }
 
 #fh5co-features {
-  background: 	var(--viridian);
+  background: 	var(--background);
 }
 #fh5co-features h2 {
   color: #fff;
@@ -262,7 +262,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: table-cell;
   vertical-align: middle;
   height: 100px;
-  color: 	var(--viridian) !important;
+  color: 	var(--background) !important;
 }
 #fh5co-features .feature-left .feature-copy {
   width: 100%;
@@ -313,7 +313,7 @@ h1, h2, h3, h4, h5, h6, figure {
 
 .fh5co-bg-dark {
   background: #2F3C4F;
-  background: 	var(--viridian);
+  background: 	var(--background);
 }
 .fh5co-bg-dark .fh5co-heading h2 {
   color: #fff !important;
@@ -370,7 +370,7 @@ h1, h2, h3, h4, h5, h6, figure {
   display: inline-block;
   zoom: 1;
   *display: inline;
-  color:	var(--viridian);
+  color:	var(--background);
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -407,7 +407,7 @@ h1, h2, h3, h4, h5, h6, figure {
   font-size: 20px;
 }
 #fh5co-about .fh5co-social-icons li a:hover {
-  background: var(--viridian);
+  background: var(--background);
 }
 
 .fh5co-heading {
@@ -527,7 +527,7 @@ h1, h2, h3, h4, h5, h6, figure {
   }
 }
 .timeline > li > .timeline-badge {
-  color: var(--viridian);
+  color: var(--background);
   width: 44px;
   height: 44px;
   line-height: 50px;
@@ -806,7 +806,7 @@ h1, h2, h3, h4, h5, h6, figure {
   height: 54px;
   border: none !important;
   background: #fff;
-  color: var(--viridian);
+  color: var(--background);
   font-size: 16px;
   text-transform: uppercase;
   font-weight: 400;
@@ -1116,9 +1116,9 @@ input[type="text"] {
 }
 
 .btn-primary {
-  background: var(--viridian);
+  background: var(--background);
   color: #fff;
-  border: 2px solid var(--viridian);
+  border: 2px solid var(--background);
 }
 .btn-primary:hover, .btn-primary:focus, .btn-primary:active {
   background: #688b80 !important;
@@ -1126,8 +1126,8 @@ input[type="text"] {
 }
 .btn-primary.btn-outline {
   background: transparent;
-  color: var(--viridian);
-  border: 2px solid var(--viridian);
+  color: var(--background);
+  border: 2px solid var(--background);
 }
 .btn-primary.btn-outline:hover, .btn-primary.btn-outline:focus, .btn-primary.btn-outline:active {
   background: #688b80;
@@ -1260,7 +1260,7 @@ input[type="text"] {
 .form-control:active, .form-control:focus {
   outline: none;
   box-shadow: none;
-  border-color: var(--viridian);
+  border-color: var(--background);
 }
 
 .row-pb-md {
@@ -1297,7 +1297,7 @@ input[type="text"] {
 
 /* *****New Code***** */
 .fh5co-bg-color {
-  background-color: var(--viridian);
+  background-color: var(--background);
 }
 .fh5co-footer-bg {
   background-color: #363131;

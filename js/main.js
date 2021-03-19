@@ -121,7 +121,7 @@ var info = {
 				scaleColor: false,
 				lineWidth: 4,
 				lineCap: 'butt',
-				barColor: '#40826d',
+				barColor: '#6b6e7a',
 				trackColor: "#f5f5f5",
 				size: 160,
 				animate: 1000
